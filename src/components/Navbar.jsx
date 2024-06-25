@@ -11,9 +11,9 @@ const Navbar = () => {
               Home
             </Link>
           </NavLink>
-          <NavLink to="/project-tracker">
+          <NavLink to="/projects">
             <Link px={2} py={1} rounded="md" _hover={{ textDecoration: "none", bg: "teal.700" }} color="white">
-              Project Tracker
+              Projects
             </Link>
           </NavLink>
           <NavLink to="/feedback">
