@@ -8,6 +8,7 @@ import BugTracker from "./pages/BugTracker.jsx";
 import Backlog from "./pages/Backlog.jsx";
 import DealTracker from "./pages/DealTracker.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Projects from "./pages/Projects.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/bug-tracker" element={<BugTracker />} />
         <Route exact path="/backlog" element={<Backlog />} />
         <Route exact path="/deal-tracker" element={<DealTracker />} />
+        <Route exact path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );
